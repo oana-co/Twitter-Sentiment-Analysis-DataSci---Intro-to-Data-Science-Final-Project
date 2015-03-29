@@ -1,4 +1,4 @@
-# Load the package
+# Load the packages
 
 install.packages("twitteR")
 install.packages("wordcloud")
@@ -10,7 +10,7 @@ library(wordcloud)
 library(tm)
 library(SnowballC)
 
-# to get your consumerKey and consumerSecret see the twitteR documentation for instructions
+# Connect with Twitter
 consumer_key <- 'q0wvm80ceeCGml0UmK7Dl7hvP'
 consumer_secret <- 'LE3RvKLuzUncx4T6AjpHNMlhNHABNEtVg9lriiJWLHyD18YS6B'
 access_token <- '54455879-yPWU2L26jrBGSuh5duFe10aE3KkTlCI17lftzBOUw'
