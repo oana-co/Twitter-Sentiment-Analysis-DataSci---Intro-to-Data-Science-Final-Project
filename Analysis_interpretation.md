@@ -1,6 +1,6 @@
 # Twitter-Sentiment-Analysis-DataSci---Intro-to-Data-Science-Final-Project
 
-Interpretation of results
+**Interpretation of results**
 
 The histogram shows the frequency of tweets with respect of scores allotted to each tweets. 
 The x-axis shows the score of each tweet as a negative and positive integer or zero. 
@@ -15,7 +15,7 @@ Out of 1000 tweets that were fetched from the twitter, A majority of them (662) 
 whereas around 120 were having negative sentiments. 218 tweets were having positive sentiments 
 and the overall score is positive as can be seen from the plot. 
 
-Limitations of the analysis
+**Limitations of the analysis**
 
 There are certain limitations while doing Twitter Analysis using R: 
 
@@ -45,7 +45,7 @@ D. Language: a word can change sentiment and meaning depending on the language u
 in slang, dialects, and language variations. An example is the word “sick“, which can change meaning based 
 on context, tone and language, although clear to the target audience.
 
-Future analysis
+**Future analysis**
 
 While sometimes used interchangeably, emotion and sentiment aren’t the same, especially in sentiment analysis. 
 Sentiment is influenced by emotion, a subjective feeling or thought. The strength of a sentiment is usually 
@@ -57,13 +57,17 @@ Rational evaluation: evaluations from rational reasoning and tangible beliefs (e
 Emotional evaluation: evaluations from non-tangible and emotional impulses (e.g. “These reports are the best ever!”).
 After making this distinction, we could build a sentiment scoring system, taking into consideration the following sentiment ratings:
 
-(+2) emotional positive
-(+1) rational positive
-(0) neutral
-(-1) rational negative
-(-2) emotional negative
+* (+2) emotional positive
+* (+1) rational positive
+* (0) neutral
+* (-1) rational negative
+* (-2) emotional negative
 
 The next step is to develop a new model using n-grams; n-gram is a contiguous sequence of n items from a given 
-sequence of text or speech. The items can be phonemes, syllables, letters, words or base pairs according to the application. The n-grams typically are collected from a text or speech corpus. When the items are words, n-grams may also be called shingles.[1]
+sequence of text or speech. The items can be phonemes, syllables, letters, words or base pairs according to the application. The n-grams typically are collected from a text or speech corpus. 
+
+N-gram models can be imagined as placing a small window over a sentence or a text, in which only n words are visible at the same time.
 
 An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" (or, less commonly, a "digram"); size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n, e.g., "four-gram", "five-gram", and so on.
+
+
